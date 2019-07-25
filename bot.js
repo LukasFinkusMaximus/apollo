@@ -694,4 +694,4 @@ else if(allCards[target].type == "Character")
   }
 })
 
-client.login('NjAzNzA3Nzk2MDU5NDU1NjU5.XTjVHQ.PXKAKgQL5UHDUzCfmRy8tXSGH34')
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
