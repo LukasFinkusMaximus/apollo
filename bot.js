@@ -663,7 +663,7 @@ var target = -1
       		color: 3447003,
       		title: allCards[target].name,
       		fields: [
-        { name: allCards[target].attribute, value: "Type: " + allCards[target].type + "\nText: " + allCards[target].text, inline: true},
+        { name: allCards[target].attribute, value: "Type: " + allCards[target].type + "\nCost: " + allCards[target].cost + "\nText: " + allCards[target].text, inline: true},
       ]
     }
   });
@@ -674,7 +674,7 @@ var target = -1
       		color: 3447003,
       		title: allCards[target].name,
       		fields: [
-        { name: allCards[target].attribute, value: "Type: " + allCards[target].type + "\nText: " + allCards[target].text + "\nB-Power: " + allCards[target].B + "\nDamage Rating: " + allCards[target].Dmg, inline: true},
+        { name: allCards[target].attribute, value: "Type: " + allCards[target].type + "\nCost: " + allCards[target].cost + "\nText: " + allCards[target].text + "\nB-Power: " + allCards[target].B + "\nDamage Rating: " + allCards[target].Dmg, inline: true},
       ]
     }
   });
